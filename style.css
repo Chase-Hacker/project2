@@ -1,5 +1,15 @@
-* {}
+.tips-content,
+.tips-content2,
+.tips-content3,
+.tips-content4 {
+    text-align: center;
+    margin-top: 10vh;
+    font-size: 2em;
+}
 
+.second-title {
+    text-align: center;
+}
 
 .footer {
     text-align: center;
