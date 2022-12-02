@@ -10,3 +10,38 @@
 .item06 {
     max-width: 50%;
 }
+
+.image1 {
+    width: 50%;
+}
+
+nav {
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 2rem;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    color: #000000;
+    text-decoration: overline rgba(0, 0, 0, 0.7)
+}
+
+.hero {
+   justify-content: center;
+    display: flex;
+}
