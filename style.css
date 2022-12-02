@@ -1,0 +1,12 @@
+.footer {
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    margin-top: 10vh;
+}
+
+.item02, 
+.item04,
+.item06 {
+    max-width: 50%;
+}
