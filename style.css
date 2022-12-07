@@ -92,14 +92,14 @@ section {
 .item01 {
     display:flex;
     width: 35%;
-    background-image:url(Images/Projectimages4.png);
+    background-image:url(Images/Projectimages4.png); 
     padding:15px;
     align-items:center;
     justify-content:center;
     height:40vh;
     background-repeat:no-repeat;
     background-size:cover;
-    
+    background-image:
 }
 
 .item02 {
