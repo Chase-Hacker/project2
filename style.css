@@ -55,7 +55,7 @@ nav ul a {
 
 nav ul a:hover {
     color:ghostwhite;
-    text-decoration: overline rgba(0, 0, 0, 0.7)
+    text-decoration: underline ghostwhite;
 }
 
 .hero {
@@ -89,7 +89,7 @@ section {
 .item01 {
     display:flex;
     width: 35%;
-    background-image:url(Images/Projectimages4.png); 
+    background-image:url(Images\Projectimages4.png); 
     padding:15px;
     align-items:center;
     justify-content:center;
