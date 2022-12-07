@@ -75,9 +75,7 @@ nav ul a:hover {
 body {background-color: #212121;
 background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
 color: ghostwhite;}
-<<<<<<< HEAD
-<<<<<<< HEAD
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 
 section {
     display:flex;
@@ -98,7 +96,7 @@ section {
     height:40vh;
     background-repeat:no-repeat;
     background-size:cover;
-    background-image:
+
 }
 
 .item02 {
@@ -107,9 +105,4 @@ section {
     align-items:center;
     font-size:1.5em;
 }
-=======
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
->>>>>>> parent of ca2a78f (Formatting)
-=======
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
->>>>>>> parent of ca2a78f (Formatting)
+
