@@ -1,108 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  color: ghostwhite;
+}
+
 img {
-max-width: 100%;
+  max-width: 100%;
+}
+
+body {
+  background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
+  background-color: #212121;
+}
+
+.nav {
+  width: 100vw;
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  position: fixed;
+}
+
+.nav__items {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+
+  width: 20%;
+  height: 100%;
+}
+
+.nav__items li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all 0.25s ease-in;
+}
+
+.nav__items li a {
+  color: ghostwhite;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav__items li:hover a {
+  text-decoration: underline;
+}
+
+.hero {
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(/Images/heroImage.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  color: ghostwhite;
+  font-size: 5em;
 }
 
 .tips-content,
 .tips-content2,
 .tips-content3,
 .tips-content4 {
-    text-align: center;
-    margin-top: 10vh;
-    font-size: 2em;
+  text-align: center;
+  margin-top: 10vh;
+  font-size: 2em;
 }
 
 .second-title {
-    text-align: center;
+  text-align: center;
 }
 
 .footer {
-    text-align: center;
-    font-size: large;
-    font-style: italic;
-    margin-top: 10vh;
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+  margin-top: 10vh;
 }
 
-.item02, 
+.item02,
 .item04,
 .item06 {
-    max-width: 50%;
+  max-width: 50%;
 }
 
 .image1 {
-    width: 50%;
+  width: 50%;
 }
-
-nav {
-    width: 100vw;
-    height: 15vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav ul a {
-    color:ghostwhite;
-    text-decoration: none;
-    font-size: 2rem;
-    padding: 2rem;
-    font-weight: bold;
-}
-
-nav ul a:hover {
-    color:ghostwhite;
-    text-decoration: underline ghostwhite;
-}
-
-.hero {
-    justify-content: center;
-    display: flex;
-}
-
-.hero-content {
-    position: absolute;
-    margin-top: 30vh;
-}
-
-.hero-image {
-    max-width: 100vw;
-}
-
-body {background-color: #212121;
-background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
-color: ghostwhite;}
-
 
 section {
-    display:flex;
-    flex-wrap: wrap;
-    box-sizing:border-box;
-    width:100%;
-    justify-content:space-around;
-    margin-top: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  width: 100%;
+  justify-content: space-around;
+  margin-top: 10vh;
 }
 
 .item01 {
-    display:flex;
-    width: 35%;
-    background-image:url(Images\Projectimages4.png); 
-    padding:15px;
-    align-items:center;
-    justify-content:center;
-    height:40vh;
-    background-repeat:no-repeat;
-    background-size:cover;
-
+  display: flex;
+  width: 35%;
+  background-image: url(/Images/projectimages4.png);
+  background-size: cover;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  /* background-repeat:no-repeat;
+    background-size:cover; */
 }
 
 .item02 {
-    display:flex;
-    width:35%;
-    align-items:center;
-    font-size:1.5em;
+  display: flex;
+  width: 35%;
+  align-items: center;
+  font-size: 1.5em;
 }
-
