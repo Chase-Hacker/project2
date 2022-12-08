@@ -10,8 +10,11 @@ img {
 }
 
 body {
-  background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
-  background-color: #212121;
+  /* background-image: url("https://www.transparenttextures.com/patterns/hexellence.png");
+  background-color: #212121; */
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .nav {
@@ -57,6 +60,7 @@ body {
 
   background-image: url(/Images/heroImage.jpg);
   background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -78,6 +82,7 @@ body {
 
 .second-title {
   text-align: center;
+  margin-top: 20vh;
 }
 
 .footer {
@@ -124,4 +129,28 @@ section {
   width: 35%;
   align-items: center;
   font-size: 1.5em;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10000;
+}
+
+main {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.item03 {
+  display: flex;
+  width: 35%;
+  background-image: url("Images/projectimages1.png");
+  background-size: cover;
+  padding: 15px;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
 }
