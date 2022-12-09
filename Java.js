@@ -1,3 +1,4 @@
+// Credit to https://codepen.io/riazxrazor/pen/Gjomdp
 var canvas = document.getElementById( 'canvas' ),
 		ctx = canvas.getContext( '2d' ),
     canvas2 = document.getElementById( 'canvas2' ),
@@ -53,7 +54,7 @@ var canvas = document.getElementById( 'canvas' ),
     }
 
     for(var i = 0; i < maxColums ; i++) {
-      fallingCharArr.push(new Point(i*fontSize,randomFloat(-500,0)));
+      fallingCharArr.push(new Point(i*fontSize,randomFloat(ch,0)));
     }
 
 
@@ -69,7 +70,7 @@ var canvas = document.getElementById( 'canvas' ),
 
       while (i--) {
         fallingCharArr[i].draw(ctx);
-        var v = fallingCharArr[i];
+        //var v = fallingCharArr[i];
       }
 
       requestAnimationFrame(update);
