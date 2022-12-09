@@ -158,9 +158,11 @@ main {
   background-image: url("Images/projectimages1.png");
   background-size: cover;
   padding: 15px;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
   height: 40vh;
+  background-position: right;
+  position: relative;
 }
 
 .footer {
