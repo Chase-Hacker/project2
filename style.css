@@ -127,6 +127,7 @@ section {
   align-items: center;
   justify-content: center;
   height: 40vh;
+
   /* background-repeat:no-repeat;
     background-size:cover; */
 }
@@ -148,6 +149,7 @@ canvas {
 
 main {
   height: 100vh;
+  width: 100vw;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -155,7 +157,6 @@ main {
 .item03 {
   display: flex;
   width: 35%;
-  background-image: url("Images/projectimages1.png");
   background-size: cover;
   padding: 15px;
   align-items: right;
@@ -165,6 +166,39 @@ main {
   position: relative;
 }
 
+.item04 {
+  background-image: url("Images/projectimages1.png");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  padding: 15px;
+}
+
+.item04 h2 {
+  text-align: center;
+}
+
 .footer {
   position: relative;
+  text-align: center;
+  font-size: large;
+  font-style: italic;
+  margin-top: 10vh;
+}
+
+.item05 {
+  background-image: url("Images/projectimages2.png");
+  background-size: cover;
+  display: flex;
+  width: 35%;
+  padding: 15px;
+  height: 446.64px;
+}
+
+@media only screen and (max-width: 1200px) {
+  p {
+    font-size: 1rem;
+  }
 }
