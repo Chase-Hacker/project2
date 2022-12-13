@@ -14,6 +14,10 @@ var canvas = document.getElementById( 'canvas' ),
     canvas.width = canvas2.width = cw;
     canvas.height = canvas2.height = ch;
 
+    // function updateCanvasSize () {
+      
+    // }
+
 
     function randomInt( min, max ) {
     	return Math.floor(Math.random() * ( max - min ) + min);
@@ -39,7 +43,7 @@ var canvas = document.getElementById( 'canvas' ),
       ctx2.font = fontSize+"px san-serif";
       ctx2.fillText(this.value,this.x,this.y);
 
-        ctx.fillStyle = "#0F0";
+        ctx.fillStyle = "#00cae3";
         ctx.font = fontSize+"px san-serif";
         ctx.fillText(this.value,this.x,this.y);
 
@@ -77,3 +81,8 @@ var canvas = document.getElementById( 'canvas' ),
     }
 
   update();
+  window.addEventListener("resize", () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+  })
+

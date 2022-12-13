@@ -92,11 +92,14 @@ p {
   margin-top: 20vh;
 }
 
-.footer {
+footer {
   text-align: center;
   font-size: large;
   font-style: italic;
-  margin-top: 10vh;
+  position: relative;
+  background-color: black;
+  z-index: 2;
+  padding-top: 10vh;
 }
 
 .item02,
@@ -136,7 +139,7 @@ section {
   display: flex;
   width: 35%;
   align-items: center;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 canvas {
@@ -147,11 +150,16 @@ canvas {
   z-index: -10000;
 }
 
-main {
+.page-wrapper {
   height: 100vh;
   width: 100vw;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-top: 5vh;
 }
 
 .item03 {
@@ -176,8 +184,18 @@ main {
   padding: 15px;
 }
 
+.item06 {
+  display: flex;
+  width: 35%;
+  align-items: center;
+  font-size: 1.5em;
+}
+
 .item04 h2 {
   text-align: center;
+  font-size: 2em;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .footer {
@@ -188,12 +206,21 @@ main {
 }
 
 .item05 {
-  background-image: url("Images/projectimages2.png");
+  background-image: url("Images/project.jpg");
   background-size: cover;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 35%;
   padding: 15px;
   height: 446.64px;
+}
+
+.item05 h2 {
+  text-align: center;
+  font-size: 2em;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 @media only screen and (max-width: 1200px) {
