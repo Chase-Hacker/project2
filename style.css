@@ -181,11 +181,10 @@ main {
 }
 
 .footer {
-  position: relative;
+  position: absolute;
   text-align: center;
   font-size: large;
   font-style: italic;
-  margin-top: 10vh;
 }
 
 .item05 {
