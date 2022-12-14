@@ -34,7 +34,7 @@ p {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: absolute;
+  position: relative;
 }
 
 .nav__items {
@@ -158,7 +158,7 @@ canvas {
 }
 
 main {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   padding-top: 5vh;
 }
 
