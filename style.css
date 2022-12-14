@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
 
+
   color: ghostwhite;
 }
 
@@ -94,10 +95,11 @@ p {
 
 footer {
   text-align: center;
+  display: flex;
   font-size: large;
   font-style: italic;
   position: relative;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
   padding-top: 10vh;
 }
@@ -129,7 +131,7 @@ section {
   padding: 15px;
   align-items: center;
   justify-content: center;
-  height: 40vh;
+  /* height: 40vh; */
 
   /* background-repeat:no-repeat;
     background-size:cover; */
@@ -169,7 +171,7 @@ main {
   padding: 15px;
   align-items: right;
   justify-content: right;
-  height: 40vh;
+  /* height: 40vh; */
   background-position: right;
   position: relative;
 }
@@ -203,6 +205,8 @@ main {
   text-align: center;
   font-size: large;
   font-style: italic;
+  display: flex;
+  justify-content: space-around;
 }
 
 .item05 {
@@ -213,7 +217,8 @@ main {
   justify-content: center;
   width: 35%;
   padding: 15px;
-  height: 446.64px;
+  padding-top: 10px;
+  /* height: 446.64px; */
 }
 
 .item05 h2 {
@@ -223,8 +228,101 @@ main {
   padding-right: 5vw;
 }
 
+.sources {
+  /* display: flex; */
+  justify-content: left;
+  flex-wrap: wrap;
+  width: 30%;
+  margin-right: 0%;
+  /* padding-left: 40vh; */
+}
+
+.sources ul {
+  list-style: none;
+}
+
+.sources ul li {
+  margin-bottom: 3vh;
+}
+
+.sources h2 {
+  text-decoration: underline;
+}
+
+.information {
+  /* display: flex; */
+  justify-content: right;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+}
+
+.information ul {
+  list-style: none;
+}
+
+.information ul li {
+  margin-bottom: 3vh;
+}
+
+.information p {
+  padding-top: 0vh;
+  padding-bottom: 3vh;
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+.information h2 {
+  padding-top: 0vh;
+  padding-bottom: 3vh;
+  text-decoration: underline;
+  font-size: 2em;
+}
+
+.copyright {
+  width: 30%;
+  align-items: center;
+  align-self: flex-end;
+}
+
+.copyright h2 {
+  font-size: 1em;
+  text-decoration: none;
+  /* padding-left: 20vh ; */
+  padding-bottom: 10vh;
+}
+
 @media only screen and (max-width: 1200px) {
   p {
     font-size: 1rem;
+  }
+
+  .page-wrapper {
+    max-width: 100%;
+  }
+  .item01,
+  .item02,
+  .item03,
+  .item04,
+  .item05,
+  .item06 {
+    width: 100%;
+  }
+
+  section {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .sources{
+    width: 100%;
+  }
+  .information{
+    max-width: 100%;
+  }
+  .copyright {
+    max-width: 100%;
   }
 }
