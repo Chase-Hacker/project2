@@ -366,6 +366,13 @@ main {
   .item03,
   .item06 {
     order: 1;
+    font-size: 0.5em;
+  }
+
+  .item02 p,
+  .item03 p,
+  .item06 p {
+    font-size: 2em;
   }
 
   .sources h2 {
